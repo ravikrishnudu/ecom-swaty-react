@@ -1,0 +1,18 @@
+.container {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+
+.sub-cont1{
+    margin-right: 40px;
+}
+
+.sub-cont2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+

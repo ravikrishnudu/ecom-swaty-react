@@ -1,0 +1,14 @@
+.foot-cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    /* align-content: center; */
+    /* justify-items: center; */
+
+}
+
+.foot-sub-cont{
+    display: flex;
+    justify-content: space-around;
+}

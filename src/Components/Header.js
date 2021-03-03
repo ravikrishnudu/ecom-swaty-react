@@ -11,7 +11,7 @@ class Header extends React.Component {
     
         <div >
           <input className = "sub-cont1" placeholder="Products" />
-          <input className = "sub-cont1" placeholder="Products" />
+          <input className = "sub-cont1" placeholder="Location" />
         </div>
         <div className="sub-cont2">
           <div className = "sub-cont1" >Updates</div>

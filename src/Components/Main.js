@@ -2,6 +2,7 @@ import React from "react";
 // import React from 'react';
 import "./Main.css";
 import logo from "./images/img01.jpg";
+import Card from "./Card.js";
 
 class Main extends React.Component {
   render() {
@@ -15,109 +16,39 @@ class Main extends React.Component {
           <p>Top Merchantss</p>
         </div>
         <hr />
+        <div className="containerr" style = {{display:"flex"}} >  
+          <div>
+            <h4 className="title">Trending Items</h4>
+            <div className="store-cont">
+              <Card name="clothes" price={99} />
+              <Card name=" Clothes" price={22} />
+              <Card name=" Clothes" price={22} />
+            </div>
+            <h4 className="title">Trending Items</h4>
 
-        <div>
-          <h4 className="title">Trending Items</h4>
-          <div className="store-cont">
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
+            <div className="store-cont">
+              <Card name=" Clothes" price={22} />
+              <Card name=" Clothes" price={22} />
+              <Card name=" Clothes" price={11} />
               </div>
-            </div>
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
-            </div>
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
+              <h4 className="title">Trending Items</h4>
+
+            <div className="store-cont">
+              <Card name=" Clothes" price={22} />
+              <Card name=" Clothes" price={22} />
+              <Card name=" Clothes" price={22} />
             </div>
           </div>
-          <h4 className="title"> Trending Items </h4>
-          <div className="store-cont">
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
-            </div>
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
-            </div>
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
-            </div>
-          </div>
-          <h4 className="title">Trending Items</h4>
-          <div className="store-cont">
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
-            </div>
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
-            </div>
-            <div>
-              <img className="store-item-img" src={logo} alt="logo" />
-              <div className="card">
-                <h4>clothes</h4>
-                <h4>
-                  <strong>$</strong>99
-                </h4>
-              </div>
-            </div>
+
+          <div className="round-img">
+            <img className="store-item-img-round" src={logo} alt="logo" />
+            <img className="store-item-img-round" src={logo} alt="logo" />
+            <img className="store-item-img-round" src={logo} alt="logo" />
+            <img className="store-item-img-round" src={logo} alt="logo" />
+            <img className="store-item-img-round" src={logo} alt="logo" />
+
           </div>
         </div>
-          <div className="round-img">
-          <img className="store-item-img" src={logo} alt="logo" />
-          <img className="store-item-img" src={logo} alt="logo" />
-          <img className="store-item-img" src={logo} alt="logo" />
-          <img className="store-item-img" src={logo} alt="logo" />
-
-
-
-          </div>
-
       </div>
     );
   }

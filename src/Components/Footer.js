@@ -9,7 +9,7 @@ class Footer extends React.Component {
         <hr />
         <div className="foot-cont">
           <img src={logo} alt="logo" />
-          <button>Subscribe for Offers</button>
+          <button className="button-foot">Subscribe for Offers</button>
           <div>
             What is Swaty <br />
             Affilites

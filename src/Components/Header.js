@@ -2,6 +2,8 @@ import React from "react";
 // import React from 'react';
 import "./Header.css";
 import logo from "./images/img/swaty1.jpg";
+import cart from "./images/shopping-cart-solid.svg"
+import user from "./images/user-regular.svg"
 
 class Header extends React.Component {
   render() {
@@ -16,8 +18,8 @@ class Header extends React.Component {
         <div className="sub-cont2">
           <div className = "sub-cont1" >Updates</div>
           <div className = "sub-cont1">Favorites</div>
-          <img className = "sub-cont1" src="" alt="cart" />
-          <img className = "sub-cont1" src="" alt="user" />
+          <img className = "sub-cont3" src={cart} alt="cart" />
+          <img className = "sub-cont3" src={user} alt="user" />
         </div>
       </div>
     );

@@ -8,11 +8,20 @@
 
 .sub-cont1{
     margin-right: 40px;
+    padding: 8.5px;
 }
 
 .sub-cont2 {
   display: flex;
   justify-content: space-between;
-  margin-right: 100px;
+  margin-right: 78px;
+  font-size: 22px;
 }
 
+.sub-cont3{
+
+  width: 35px;
+  height: 35px;
+  margin-right: 40px;
+  /* padding: 8.5px; */
+}

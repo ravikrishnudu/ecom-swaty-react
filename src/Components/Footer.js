@@ -11,7 +11,7 @@ class Footer extends React.Component {
           <img src={logo} alt="logo" />
           <button className="button-foot">Subscribe for Offers</button>
           <div>
-            What is Swaty <br />
+            What is Swaty <br className="br" />
             Affilites
           </div>
           <div>
